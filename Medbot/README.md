@@ -1,5 +1,5 @@
-# Medical-Chatbot
-Medbot is a chatbot model used for medical assistance. The project is based on a Chatbot for diagnosis of diseases. All diseases have a set of associated symptoms. The patient needs to enter the observed symptoms and the Chatbot can recognize the disease. Whenever someone has some disease the human body responds to it by giving symptoms. These symptoms can point towards a particular disease.
+# Medical-Medbot
+Medbot is a medbot model used for medical assistance. The project is based on a medbot for diagnosis of diseases. All diseases have a set of associated symptoms. The patient needs to enter the observed symptoms and the medbot can recognize the disease. Whenever someone has some disease the human body responds to it by giving symptoms. These symptoms can point towards a particular disease.
 
 The system is works on the principle of artificial neural networks which simulate human thinking and reasoning. These networks work like the neurons in our brain and simulate medical reasoning. 
  
@@ -14,29 +14,29 @@ Install all required packages using:
     pip install -r requirements.txt
 
 # Getting Started
-This chatbot project revolves around two main Python scripts:
+This medbot project revolves around two main Python scripts:
 
-chatbot_train.py
+medbot_train.py
 
-chatbot_gui.py
+medbot_gui.py
 
 # Model Training
-To train the chatbot using the provided dataset, run:
+To train the medbot using the provided dataset, run:
 
-    python chatbot_train.py
+    python medbot_train.py
 
-The training data is located in the intents.json file. This script processes the dataset and builds the model that powers the chatbot’s responses.
+The training data is located in the intents.json file. This script processes the dataset and builds the model that powers the medbot’s responses.
 
-# Launch the Chatbot Interface
-Once training is complete, you can start the chatbot interface by executing:
+# Launch the Medbot Interface
+Once training is complete, you can start the medbot interface by executing:
 
-    python chatbot_gui.py
+    python medbot_gui.py
     
-This will launch a graphical user interface where you can interact with the trained chatbot in real time.
+This will launch a graphical user interface where you can interact with the trained medbot in real time.
 
 
 
 # Details
-chatbot_train.py is a python file in which we train the model with the help of available dataset.
+medbot_train.py is a python file in which we train the model with the help of available dataset.
 Dataset is stored in the json file (intents.json).
-chatbot_gui.py is a file which will open a GUI prompt where user can talk with chatbot and interact with it.
+medbot_gui.py is a file which will open a GUI prompt where user can talk with medbot and interact with it.
