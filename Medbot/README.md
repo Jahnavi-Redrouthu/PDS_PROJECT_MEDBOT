@@ -40,3 +40,13 @@ This will launch a graphical user interface where you can interact with the trai
 medbot_train.py is a python file in which we train the model with the help of available dataset.
 Dataset is stored in the json file (intents.json).
 medbot_gui.py is a file which will open a GUI prompt where user can talk with medbot and interact with it.
+
+# Note
+source /Users/jahnaviredrouthu/Desktop/Medbot/tf-env/bin/activate
+python medbot_train.py
+
+Or
+
+/Users/jahnaviredrouthu/Desktop/Medbot/tf-env/bin/python medbot_train.py
+
+/Users/jahnaviredrouthu/Desktop/Medbot/tf-env/bin/python /Users/jahnaviredrouthu/Desktop/Medbot/medbot_gui.py
